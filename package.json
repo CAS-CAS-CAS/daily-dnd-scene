@@ -1,0 +1,24 @@
+{
+  "name": "daily-dnd-scene",
+  "version": "1.0.0",
+  "description": "An app to run in the background and prompt you to write a description for a DnD scenario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAS-CAS-CAS/daily-dnd-scene.git"
+  },
+  "author": "CAS-CAS-CAS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CAS-CAS-CAS/daily-dnd-scene/issues"
+  },
+  "homepage": "https://github.com/CAS-CAS-CAS/daily-dnd-scene#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "sentencer": "^0.2.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
