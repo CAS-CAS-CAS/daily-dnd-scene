@@ -4,10 +4,15 @@ var fs = require('fs');
 
 var spells; 
 let bake = false;
+let target;
+if(process.argv.length > 3){
+    target = process.argv[3]
+}
+else{
+    target = "races"
+}
 
-let target = "spells"
-
-if(process.argv.length > 2){if(process.argv.includes("bake")){bake = true}}
+if(process.argv.length > 2){if(process.argv.includes("bake")){bake = true}} //this should be two seperate scripts; alas later! TODO
 console.log(bake ? "bake" : "cake")
 Sentencer.configure({
     nounList:['artificer', 'barbarian', 'bard', 'cleric', 'druid', 'fighter', 'monk', 'paladin', 'ranger','rogue', 'sorcerer', 'warlock', 'wizard'],
