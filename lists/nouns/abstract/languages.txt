@@ -1,0 +1,1 @@
+["abyssal","celestial","common","deep-speech","draconic","dwarvish","elvish","giant","gnomish","goblin","halfling","infernal","orc","primordial","sylvan","undercommon"]
